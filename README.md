@@ -9,9 +9,9 @@
 
 ## Scenarios
 
-## Feature: Login tests
+#### Feature: Login tests #
 
-  @Login
+  @Login #
   Scenario: Login with valid credentials
       # Given navigate to login page
       # When login with a valid username and password
