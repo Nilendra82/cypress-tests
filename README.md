@@ -11,13 +11,13 @@
 
 #### Feature: Login tests #
 
-  @Login #
+  @Login
   Scenario: Login with valid credentials
       # Given navigate to login page
       # When login with a valid username and password
       # Then user should be able to redirect to the dashboard
 
-  # Scenario: Login and press back arrow
+  - Scenario: Login and press back arrow
       # Given navigate to login page
       # When login with a valid username and password
       # And click on back arrow icon
