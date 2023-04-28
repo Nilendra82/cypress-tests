@@ -11,8 +11,8 @@
 
 #### Feature: Login tests #
 
-  ####@Login
-  Scenario: Login with valid credentials
+  @Login
+  ####Scenario: Login with valid credentials
       # Given navigate to login page
       # When login with a valid username and password
       # Then user should be able to redirect to the dashboard
