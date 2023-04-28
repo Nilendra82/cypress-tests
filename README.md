@@ -7,12 +7,12 @@
 1. build the containers with `npm run build`
 2. start the web application and run Cypress tests with `npm run up`
 
-# Scenarios
+## Scenarios
 
-Feature: Login tests
+## Feature: Login tests
 
-  # @Login
-  # Scenario: Login with valid credentials
+  @Login
+  Scenario: Login with valid credentials
       # Given navigate to login page
       # When login with a valid username and password
       # Then user should be able to redirect to the dashboard
