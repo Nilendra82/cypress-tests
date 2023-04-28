@@ -1,0 +1,19 @@
+{
+  "name": "cypress-tests",
+  "version": "1.0.0",
+  "description": "Cypress tests",
+  "scripts": {
+    "build": "docker-compose build",
+    "up": "docker-compose up --abort-on-container-exit --exit-code-from e2e"
+  },
+  "keywords": [
+    "cypress",
+    "cypress-io",
+    "login",
+    "docker",
+    "docker-compose"
+  ],
+  "author": "Nilendra",
+  "license": "ISC",
+  "private": true
+}
