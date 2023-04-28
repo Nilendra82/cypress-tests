@@ -8,11 +8,9 @@
 2. start the web application and run Cypress tests with `npm run up`
 
 ## Scenarios
-
 #### Feature: Login tests #
 
-  @Login
-  #
+  @Login <br />
   Scenario: Login with valid credentials
       # Given navigate to login page
       # When login with a valid username and password
