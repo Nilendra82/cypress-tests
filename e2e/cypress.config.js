@@ -1,9 +1,12 @@
 const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
-  reporter: 'junit',
+  reporter: 'mochawesome',
   reporterOptions: {
-    mochaFile: 'cypress/results/output.xml',
+    reportDir: 'cypress/results',
+    overwrite: true,
+    html: true,
+    json: false,
   },
   e2e: {
     // We've imported your old cypress plugins here.
